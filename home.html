@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>GENESIS clinic</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <img  src="images/logo.png" class="logo" alt="#home" title="Your logo" style="height:65px;"/>
+
+   <nav class="navbar">
+      <div id="close-navbar" class="fas fa-times"></div>
+      <a href="#index">Главная</a>
+      <a href="#about">О нас</a>
+      <a href="#services">Услуги</a>
+      <a href="#contact">Контакты</a>
+   </nav>
+
+   <div class="icons">
+      <div id="account-btn" class="fas fa-user"></div>
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </div>
+
+</header>
+
+<!-- account form section starts  -->
+
+<div class="account-form">
+
+   <div id="close-form" class="fas fa-times"></div>
+
+   <div class="buttons">
+      <span class="btn active login-btn">Вход</span>
+      <span class="btn register-btn">Регистрация</span>
+   </div>
+
+   <form class="login-form active" action="">
+      <h3>Вход</h3>
+      <input type="email" placeholder="Введите email" class="box">
+      <input type="password" placeholder="Введите email" class="box">
+      <div class="flex">
+         <input type="checkbox" name="" id="remember-me">
+         <label for="remember-me">Запомнить меня</label>
+         <a style="color: blue;" href="#">Забыли пароль?</a>
+      </div>
+      <input type="submit" value="Войти" class="btn">
+   </form>
+
+   <form class="register-form" action="">
+      <h3>Регистрация</h3>
+      <input type="email" placeholder="Введите email" class="box">
+      <input type="password" placeholder="Введите пароль" class="box">
+      <input type="password" placeholder="Подтвердите пароль" class="box">
+      <input type="submit" value="Зарегестрироваться" class="btn">
+   </form>
+
+</div>
+
+<!-- account form section ends -->
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section id="index" class="home">
+
+   <div class="swiper home-slider">
+      
+      <div class="swiper-wrapper">
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <h1>GENESIS</h1>
+               <h2 style="color: white; font-size: 16px;">ONA VA BOLA MARKAZI</h2><br>
+               <p style="font-size: 25px;">Ваш надежный помощник в задаче профилактики, восстановления и сохранения здоровья!</p>
+               <a href="#services" class="btn">Узнать об усулгах</a>
+            </div>
+         </section>
+         <section class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <h1 style="font-size: 85px;">GENESIS</h1>
+               <h2 style="color: white; font-size: 16px;">ONA VA BOLA MARKAZI</h2><br>
+               <p style="font-size: 25px;">Ваш надежный помощник в задаче профилактики, восстановления и сохранения здоровья!</p>
+               <a href="#services" class="btn">Узнать об усулгах</a>
+            </div>
+         </section>
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section id="about" class="about">
+   
+
+   <div class="image">
+      <img src="images/about-img.jpg" alt="">
+   </div>
+
+   <div class="content">
+      <h3 class="about-title">Все наши специалисты – знатоки своего дела</h3>
+      <p>Все наши врачи кандидаты и доктора медицинских наук, а также специалисты первой и высшей категории, имеющие большой практический и международный опыт.
+
+         Высокий профессионализм и новейшие методы исследований позволяют нам не просто ставить диагнозы, но и проводить крайне эффективное лечение пациентов с заболеваниями разной степени сложности. Если вас беспокоят проблемы со здоровьем – обращайтесь к нам, мы сможем помочь!</p>
+      <!---->
+         <div class="icons-container">
+         <div class="icons">
+            <img src="images/about-icon-1.png" alt="">
+            <h3>35+</h3>
+            <span>направлений</span>
+         </div>
+         <div class="icons">
+            <img src="images/about-icon-2.png" alt="">
+            <h3>14+</h3>
+            <span>специалистов</span>
+         </div>
+      </div>
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+
+<!-- logo slider starts  -->
+
+<section class="logo-container">
+   <div class="swiper logo-slider">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide"> <img src="images/partner-logo-1.png" alt=""> </div>
+         <div class="swiper-slide"> <img src="images/partner-logo-1.png" alt=""> </div>
+         <div class="swiper-slide"> <img src="images/partner-logo-1.png" alt=""> </div>
+         <div class="swiper-slide"> <img src="images/partner-logo-1.png" alt=""> </div>
+         <div class="swiper-slide"> <img src="images/partner-logo-1.png" alt=""> </div>
+      </div>
+   </div>
+</section>
+
+<!-- logo slider ends -->
+
+<!-- faq section starts  -->
+
+<section id="services" class="faq">
+
+   <h1 class="heading">Услуги нашей клиники</h1>
+
+   <div class="accordion-container">
+
+      <div class="accordion active">
+         <div class="accordion-heading">
+            <h3>Приём</h3>
+            <i class="fas fa-angle-down"></i>
+         </div>
+         <p class="accordion-content">
+            Кардиолог, Невропатолог, Педиатр, Уролог, Гинеколог, Эндокринолог, Дерматовенеролог, Ортопед, Массажист, Окулист, Рентгенолог, Стоматолог.
+         </p>
+      </div>
+
+      <div class="accordion">
+         <div class="accordion-heading">
+            <h3>Функционлайная диагностика</h3>
+            <i class="fas fa-angle-down"></i>
+         </div>
+         <p class="accordion-content">
+            Функционлайная диагностика, ЭФГДС
+         </p>
+      </div>
+
+      <div class="accordion">
+         <div class="accordion-heading">
+            <h3>Диагностика</h3>
+            <i class="fas fa-angle-down"></i>
+         </div>
+         <p class="accordion-content">
+            Рентген, УЗИ, ТМС, ЭХО, ЭЭГ
+         </p>
+      </div>
+
+      <div class="accordion">
+         <div class="accordion-heading">
+            <h3>Процедурные услуги</h3>
+            <i class="fas fa-angle-down"></i>
+         </div>
+         <p class="accordion-content">
+            Лечение дерматовенеролога, Лечение ревматолога, Склеротерапия, Лечение невропатолога, Лор процедуры, Физиотерапия, Лечение уролога,
+            Массаж, Лечение хирурга, Процедурные услуги.
+         </p>
+      </div>
+
+      <div class="accordion">
+         <div class="accordion-heading">
+            <h3>Аптека внутри клиники</h3>
+            <i class="fas fa-angle-down"></i>
+         </div>
+         <p class="accordion-content">
+            Режим работы с 09:00 до 18:00
+         </p>
+      </div>
+
+      <div class="accordion">
+         <div class="accordion-heading">
+            <h3>Лаборатория</h3>
+            <i class="fas fa-angle-down"></i>
+         </div>
+         <p class="accordion-content">
+            TORCH инфекции, Биохимические исследования, Гормональные исследования, Коагулограмма, ПЦР исследования, Аллерго панели,
+            Вирусные гепатиты, ИММУНОЛОГИЯ, Мискроскпические исследования, Экспресс-тест, БАК.ПОСЕВ, Гематологические исследования, Инфекции,
+            Онкомаркёры, Биопсия, Гистология, Исследования мочи, ПАРАЗИТЫ.
+         </p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- faq section ends
+
+<section class="courses">
+
+   <h1 class="heading"> Статьи </h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="image">
+            <img src="images/course-2-1.jpg" alt="">
+            <h3>development</h3>
+         </div>
+         <div class="content">
+            <h3>choose what's best for you!</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, odit!</p>
+            <a href="#" class="btn">read more</a>
+            <div class="icons">
+               <span> <i class="fas fa-book"></i> 12 modules </span>
+               <span> <i class="fas fa-clock"></i> 6 hours </span>
+            </div>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="images/course-2-2.jpg" alt="">
+            <h3>engineering</h3>
+         </div>
+         <div class="content">
+            <h3>choose what's best for you!</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, odit!</p>
+            <a href="#" class="btn">read more</a>
+            <div class="icons">
+               <span> <i class="fas fa-book"></i> 12 modules </span>
+               <span> <i class="fas fa-clock"></i> 6 hours </span>
+            </div>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="images/course-2-3.jpg" alt="">
+            <h3>mathemetics</h3>
+         </div>
+         <div class="content">
+            <h3>choose what's best for you!</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, odit!</p>
+            <a href="#" class="btn">read more</a>
+            <div class="icons">
+               <span> <i class="fas fa-book"></i> 12 modules </span>
+               <span> <i class="fas fa-clock"></i> 6 hours </span>
+            </div>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="images/course-2-4.jpg" alt="">
+            <h3>doctor</h3>
+         </div>
+         <div class="content">
+            <h3>choose what's best for you!</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, odit!</p>
+            <a href="#" class="btn">read more</a>
+            <div class="icons">
+               <span> <i class="fas fa-book"></i> 12 modules </span>
+               <span> <i class="fas fa-clock"></i> 6 hours </span>
+            </div>
+         </div>
+      </div>
+
+   </div>
+
+</section> -->
+
+<!-- students reviews section starts  -->
+
+<section class="reviews">
+
+   <h1 class="heading"> Отзывы </h1>
+
+   <div class="swiper reviews-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <p>Современная, оснащенная новым медицинским оборудованием клиника. Очереди на сбор анализов крови небольшая. Везде чистота и комфорт. Персонал замечательный.</p>
+            
+            <h3>Нияз</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <p>Отзывчивый персонал, внимательные врачи, была у акулиста,кардиолога,у эндокринолога,все врачи знающие своё дело,очень помогли,спасибо.</p>
+            
+            <h3>Алихан</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <p>Замечательный диагностический центр, с обширным списком возможных анализов и тестов. Грамотный персонал, налаженные процессы, высокий уровень оборудования. </p>
+            
+            <h3>Мир Мухаммад</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <p>Клиника очень нравится. Обращаемся с момента ее открытия. Персонал дружелюбный, врачи профи.Время ожидания результатов небольшое, выдаются оперативно.</p>
+           <!-- <img src="images/pic-4.png" alt="">-->
+            <h3>Файзулло</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+            </div>
+         </div>
+
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- students reviews section ends -->
+
+<!-- contact section starts  -->
+
+<section id="contact" class="contact">
+
+   <h1 class="heading"> Контакты </h1>
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <i class="fas fa-clock"></i>
+         <h3>Режим работы :</h3>
+         <p>07:00 до 00:00</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-phone"></i>
+         <h3>Телефон :</h3>
+         <p>(73) 226-55-99</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-envelope"></i>
+         <h3> Почта : </h3>
+         <p>dedalikhan@gmail.com</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-map"></i>
+         <h3>Адрес :</h3>
+         <p>улица А. Навои дом 52В</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <a href="#index">
+         <img  src="images/logo2.png" class="logo" title="Your logo" style="height:45px;"/>
+      </a>
+         <p>Cеть многопрофильных медицинских клиник</p>
+         <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3>Быстрые ссылки</h3>
+         <a href="home.html" class="link">Главная</a>
+         <a href="about.html" class="link">О нас</a>
+         <a href="courses.html" class="link">Направлении</a>
+         <a href="contact.html" class="link">Контакты</a>
+      </div>
+
+      <div class="box">
+         <h3>Услуги</h3>
+         <a href="#" class="link">Приём</a>
+         <a href="#" class="link">Функционлайная Диагностика</a>
+         <a href="#" class="link">Диагностика</a>
+         <a href="#" class="link">Процедурные Услуги</a>
+         <a href="#" class="link">Аптека Внутри Клиники</a>
+         <a href="#" class="link">Лаборатория</a>
+      </div>
+
+      <div class="box">
+         <h3>Новостная рассылка</h3>
+         <p>Подпишитесь на последние обновления</p>
+         <form action="">
+            <input type="email" name="" placeholder="email" id="" class="email">
+            <input type="submit" value="Подписаться" class="btn">
+         </form>
+      </div>
+
+   </div>
+
+   <div class="credit">GENESIS 2022. Все права защищены! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
