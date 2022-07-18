@@ -54,13 +54,13 @@ section {
 .heading-link h3 {
   font-size: 4rem;
   text-transform: capitalize;
-  color: rgb(0, 0, 0);
+  color: #444;
 }
 
 .heading-link p {
   font-size: 2rem;
   line-height: 2;
-  color: rgb(0, 0, 0);
+  color: #777;
 }
 
 .heading-link p a {
@@ -76,18 +76,8 @@ section {
   margin-bottom: 3rem;
   font-size: 3.5rem;
   text-transform: capitalize;
-  color: rgb(0, 0, 0);
+  color: #444;
 }
- .play-btn{
-  width: 50px;
-  position: relative;
-  top: -50%;
-  cursor: pointer;
-  transition: 0.5s;
-  opacity: 0;
- }
-
-
 
 .btn {
   display: inline-block;
@@ -127,7 +117,7 @@ section {
 .header .logo {
   margin-right: auto;
   font-size: 2.5rem;
-  color: rgb(0, 0, 0);
+  color: #444;
 }
 
 .header .logo i {
@@ -144,7 +134,7 @@ section {
   right: 2rem;
   font-size: 4rem;
   cursor: pointer;
-  color: rgb(0, 0, 0);
+  color: #444;
   display: none;
 }
 
@@ -157,7 +147,7 @@ section {
   margin-right: 2rem;
   font-size: 2rem;
   
-  color: rgb(0, 0, 0);
+  color: #444;
 }
 
 .header .navbar a:hover {
@@ -235,7 +225,7 @@ section {
 .account-form form h3 {
   font-size: 2.5rem;
   text-transform: capitalize;
-  color: rgb(0, 0, 0);
+  color: #444;
   padding-bottom: .5rem;
   text-transform: uppercase;
 }
@@ -261,13 +251,13 @@ section {
 
 .account-form form .flex label {
   font-size: 1.5rem;
-  color: rgb(0, 0, 0);
+  color: #777;
   cursor: pointer;
 }
 
 .account-form form .flex a {
   font-size: 1.5rem;
-  color: rgb(0, 0, 0);
+  color: #777;
   margin-left: auto;
 }
 
@@ -376,7 +366,7 @@ section {
 .subjects .box-container .box p {
   font-size: 1.5rem;
   line-height: 2;
-  color: rgb(0, 0, 0);
+  color: #777;
 }
 
 .home-courses .slide {
@@ -402,7 +392,7 @@ section {
 .home-courses .slide .image h3 {
   font-size: 2rem;
   text-transform: capitalize;
-  color: rgb(0, 0, 0);
+  color: #444;
 }
 
 .home-courses .slide .content {
@@ -417,7 +407,7 @@ section {
 .home-courses .slide .content h3 {
   font-size: 2rem;
   text-transform: capitalize;
-  color: rgb(0, 0, 0);
+  color: #444;
   color: #fff;
 }
 
@@ -425,12 +415,12 @@ section {
   padding: 1rem 0;
   font-size: 1.5rem;
   line-height: 2;
-  color: rgb(0, 0, 0);
+  color: #777;
   color: #eee;
 }
 
 .home-courses .slide .content .btn:hover {
-  background: rgb(0, 0, 0);
+  background: #444;
 }
 
 .about {
@@ -463,13 +453,13 @@ section {
 
 .about .content .about-title {
   font-size: 3rem;
-  color: rgb(0, 0, 0);
+  color: #444;
 }
 
 .about .content p {
   font-size: 1.5rem;
   line-height: 2;
-  color: rgb(0, 0, 0);
+  color: #777;
   padding: 1rem 0;
 }
 
@@ -498,13 +488,13 @@ section {
   padding: .5rem 0;
   font-size: 3rem;
   text-transform: capitalize;
-  color: rgb(0, 0, 0);
+  color: #444;
 }
 
 .about .content .icons-container .icons span {
   font-size: 1.5rem;
   line-height: 2;
-  color: rgb(0, 0, 0);
+  color: #777;
 }
 
 .teachers .slide {
@@ -564,13 +554,13 @@ section {
 .teachers .slide .content h3 {
   font-size: 2rem;
   text-transform: capitalize;
-  color: rgb(0, 0, 0);
+  color: #444;
 }
 
 .teachers .slide .content span {
   font-size: 1.5rem;
   line-height: 2;
-  color: rgb(0, 0, 0);
+  color: #777;
 }
 
 .reviews .slide {
@@ -580,7 +570,7 @@ section {
 .reviews .slide p {
   font-size: 1.5rem;
   line-height: 2;
-  color: rgb(0, 0, 0);
+  color: #777;
   position: relative;
   background: #f0fdfa;
   border: 0.1rem solid #AB2279;
@@ -611,7 +601,7 @@ section {
 .reviews .slide h3 {
   font-size: 2.2rem;
   text-transform: capitalize;
-  color: rgb(0, 0, 0);
+  color: #444;
   padding: .5rem 0;
 }
 
@@ -653,7 +643,7 @@ section {
 .courses .box-container .box .image h3 {
   font-size: 1.5rem;
   text-transform: capitalize;
-  color: rgb(0, 0, 0);
+  color: #444;
   position: absolute;
   top: 1rem;
   left: 1rem;
@@ -663,21 +653,21 @@ section {
 
 .courses .box-container .box .content {
   padding: 2rem;
-  text-align: left;
+  text-align: center;
   border: 0.1rem solid #AB2279;
 }
 
 .courses .box-container .box .content h3 {
   font-size: 2rem;
   text-transform: capitalize;
-  color: rgb(0, 0, 0);
+  color: #444;
 }
 
 .courses .box-container .box .content p {
   padding: 1rem 0;
   font-size: 1.6rem;
   line-height: 2;
-  color: rgb(0, 0, 0);
+  color: #777;
 }
 
 .courses .box-container .box .content .icons {
@@ -698,7 +688,7 @@ section {
 .courses .box-container .box .content .icons span {
   font-size: 1.5rem;
   text-transform: capitalize;
-  color: rgb(0, 0, 0);
+  color: #444;
 }
 
 .courses .box-container .box .content .icons span i {
@@ -741,14 +731,14 @@ section {
 .contact .icons-container .icons h3 {
   font-size: 2rem;
   text-transform: capitalize;
-  color: rgb(0, 0, 0);
+  color: #444;
   padding: .5rem 0;
 }
 
 .contact .icons-container .icons p {
   font-size: 1.5rem;
   line-height: 2;
-  color: rgb(0, 0, 0);
+  color: #777;
 }
 
 .contact .row {
@@ -784,7 +774,7 @@ section {
 .contact .row form h3 {
   font-size: 2.5rem;
   text-transform: capitalize;
-  color: rgb(0, 0, 0);
+  color: #444;
   padding-bottom: 1rem;
 }
 
@@ -877,7 +867,7 @@ section {
 .faq .accordion-container .accordion .accordion-heading h3 {
   font-size: 2rem;
   text-transform: capitalize;
-  color: rgb(0, 0, 0);
+  color: #444;
 }
 
 .faq .accordion-container .accordion .accordion-heading i {
@@ -942,7 +932,7 @@ section {
 }
 
 .footer .box-container .box .share a:hover {
-  background-color: rgb(0, 0, 0);
+  background-color: #444;
 }
 
 .footer .box-container .box .link {
@@ -954,7 +944,7 @@ section {
 }
 
 .footer .box-container .box .link:hover {
-  color: rgb(0, 0, 0);
+  color: #6b6b6b;
   text-decoration: underline;
 }
 
