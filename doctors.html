@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>GENESIS</title>
+
+   <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+crossorigin="anonymous"></script>
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <img src="images/logo.png" class="logo" alt="#home" title="Your logo" style="height:65px;"/>
+
+   
+
+   <div class="icons">
+      <div id="account-btn" class="fas fa-user"></div>
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </div>
+
+</header>
+
+<!-- account form section starts  -->
+
+<div class="account-form">
+
+    <div id="close-form" class="fas fa-times"></div>
+ 
+    <div class="buttons">
+       <span class="btn active login-btn">Вход</span>
+       <span class="btn register-btn">Регистрация</span>
+    </div>
+ 
+    <form class="login-form active" action="">
+       <h3>Вход</h3>
+       <input type="email" placeholder="Введите email" class="box">
+       <input type="password" placeholder="Введите email" class="box">
+       <div class="flex">
+          <input type="checkbox" name="" id="remember-me">
+          <label for="remember-me">Запомнить меня</label>
+          <a style="color: blue;" href="#">Забыли пароль?</a>
+       </div>
+       <input type="submit" value="Войти" class="btn">
+    </form>
+ 
+    <form class="register-form" action="">
+       <h3>Регистрация</h3>
+       <input type="email" placeholder="Введите email" class="box">
+       <input type="password" placeholder="Введите пароль" class="box">
+       <input type="password" placeholder="Подтвердите пароль" class="box">
+       <input type="submit" value="Зарегестрироваться" class="btn">
+    </form>
+ 
+ </div>
+
+<!-- account form section ends -->
+
+<!-- header section ends -->
+
+<section class="heading-link">
+   <h3>Наши врачи</h3>
+   <p> <a href="home.html">Главная</a> / Врачи </p>
+</section>
+
+<section class="courses">
+
+   <h1 class="heading"> Врачи - специалисты </h1>
+
+   <div class="box-container">
+
+    <div class="box">
+       <div class="image">
+          <img src="images/course-2-1.jpg" alt="">
+          <h3>Невропатолог</h3>
+       </div>
+       <div class="content">
+          <h3>Али-Оглы Эдие Исмаиловна</h3>
+          <p>Врач высшей категории Невропатолога и генетика (Нейро-генетик).<br>
+             Часы приема - с 8:30 до 17:00 <br>
+             Записаться: (73) 226-55-99
+             </p>
+          <a href="#" class="btn">Подробнее</a>
+       </div>
+    </div>
+
+    <div class="box">
+       <div class="image">
+          <img src="images/course-2-2.jpg" alt="">
+          <h3>Окулист</h3>
+       </div>
+       <div class="content">
+          <h3>Неля Салаватуллина Ибрагимовна</h3>
+          <p>Врач высшей категории Окулиста (Окулистк).<br>
+             Записаться: (73) 226-55-99</p>
+          <a href="#" class="btn">Подробнее</a>
+       </div>
+    </div>
+
+    <div class="box">
+       <div class="image">
+          <img src="images/course-2-3.jpg" alt="">
+          <h3>Заведующий Врач - лаборант</h3>
+       </div>
+       <div class="content">
+          <h3>Курбанова Елена Александровна</h3>
+          <p>Врач высшей категории Лаборанта (Висший лаборант).<br>
+             Записаться: (73) 226-55-99</p>
+          <a href="#" class="btn">Подробнее</a>
+       </div>
+    </div>
+
+    <div class="box">
+       <div class="image">
+          <img src="images/course-2-4.jpg" alt="">
+          <h3>Врач - лаборант </h3>
+       </div>
+       <div class="content">
+          <h3>Махмудова Мутабар Абдулмуминовна</h3>
+          <p>Врач высшей категории Лаборанта (Висший лаборант).<br>
+             Записаться: (73) 226-55-99</p>
+          <a href="#" class="btn">Подробнее</a>
+       </div>
+    </div>
+    <div class="box">
+        <div class="image">
+           <img src="images/course-2-5.jpg" alt="">
+           <h3>Врач радиолог Узист</h3>
+        </div>
+        <div class="content">
+           <h3>Мирзашарипова Гулнора Бахромовна</h3>
+           <p>Врач высшей категории радиолог Узист.<br>
+              Часы приема - с 8:30 до 17:00 <br>
+              Записаться: (73) 226-55-99
+              </p>
+           <a href="#" class="btn">Подробнее</a>
+        </div>
+     </div>
+ 
+     <div class="box">
+        <div class="image">
+           <img src="images/course-2-6.jpg" alt="">
+           <h3>Врач Стамотолог</h3>
+        </div>
+        <div class="content">
+           <h3>Нурматова Зарифа Абдукаххоровна</h3>
+           <p>Врач высшей категории Врач Стамотолог (Стамотолог).<br>
+              Записаться: (73) 226-55-99</p>
+           <a href="#" class="btn">Подробнее</a>
+        </div>
+     </div>
+ 
+     <div class="box">
+        <div class="image">
+           <img src="images/course-2-7.jpg" alt="">
+           <h3>Педиатр</h3>
+        </div>
+        <div class="content">
+           <h3>Жоджаев Тохиржон Авазжонович</h3>
+           <p>Врач высшей категории Педиатр (Педиатр).<br>
+              Записаться: (73) 226-55-99</p>
+           <a href="#" class="btn">Подробнее</a>
+        </div>
+     </div>
+ 
+     <div class="box">
+        <div class="image">
+           <img src="images/course-2-8.jpg" alt="">
+           <h3>Невролог</h3>
+        </div>
+        <div class="content">
+           <h3>Исмоилов Бахром Захридинович</h3>
+           <p>Врач высшей категории Невролог (Невролог).<br>
+              Записаться: (73) 226-55-99</p>
+           <a href="#" class="btn">Подробнее</a>
+        </div>
+     </div>
+
+     <div class="box">
+        <div class="image">
+           <img src="images/course-2-9.jpg" alt="">
+           <h3>Детский невролог- физиолог</h3>
+        </div>
+        <div class="content">
+           <h3>Исмоилова Шахноза Джалолдиновна</h3>
+           <p>Врач высшей категории етский невролог- физиолог (Эхо ЭГ).<br>
+              Записаться: (73) 226-55-99</p>
+           <a href="#" class="btn">Подробнее</a>
+        </div>
+     </div>
+ </div>
+
+   
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+ 
+       <div class="box">
+          <a href="#index">
+          <img  src="images/banner.png" class="logo" title="Your logo" style="height:45px;"/>
+       </a>
+          <p>Cеть многопрофильных медицинских клиник</p>
+          <div class="share">
+             <a href="https://t.me/genesis_ona_va_bola" class="fab fa-telegram-plane"></a>
+             <a href="https://instagram.com/genesis_ona_va_bola?igshid=YmMyMTA2M2Y=" class="fab fa-instagram"></a>
+          </div>
+       </div>
+ 
+       <div class="box">
+          <h3>Быстрые ссылки</h3>
+          <a href="#home" class="link">Главная</a>
+          <a href="#about" class="link">О нас</a>
+          <a href="#service" class="link">Направлении</a>
+          <a href="doctors.html" class="link">Врачи</a>
+          <a href="#contact" class="link">Контакты</a>
+       </div>
+ 
+       <div class="box">
+          <h3>Услуги</h3>
+          <a href="#" class="link">Приём</a>
+          <a href="#" class="link">Функционлайная Диагностика</a>
+          <a href="#" class="link">Диагностика</a>
+          <a href="#" class="link">Процедурные Услуги</a>
+          <a href="#" class="link">Аптека Внутри Клиники</a>
+          <a href="#" class="link">Лаборатория</a>
+       </div>
+ 
+       <div class="box">
+          <h3>Новостная рассылка</h3>
+          <p>Подпишитесь на последние обновления</p>
+          <form action="">
+             <input type="email" name="" placeholder="email" id="" class="email">
+             <input type="submit" value="Подписаться" class="btn">
+          </form>
+       </div>
+ 
+    </div>
+ 
+    <div class="credit">GENESIS 2022. Все права защищены! </div>
+ 
+ </section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
