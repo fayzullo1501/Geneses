@@ -1038,6 +1038,13 @@ section {
 .footer .credit span {
   color: #AB2279;
 }
+/* responsive */
+@media (max-width: audio) {
+  #myVideo {
+    width: auto;
+    height: 10%;
+  }
+}
 
 @media (max-width: 1200px) {
   .header {
