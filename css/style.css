@@ -467,17 +467,15 @@ section {
   
 }
 
-#myVideo {
-  max-width: 100%;
+
+
+.about .image img {
+  width: 100%;
+  border-radius: 20px; max-width: 100%;
   height: auto;
   display: block;
   width: 100%;
   border-radius: 8px;
-}
-
-.about .image img {
-  width: 100%;
-  border-radius: 20px;
 }
 
 .about .content {
